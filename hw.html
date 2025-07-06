@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<center><legend><b><p style="color: red">     Contact form</b></p></legend></center>
+		<label for="fname">Firstname</label>
+		<input type="text" id="fname" name="Firstname" disabled><br><br>
+		<label for="lname">Lastname</label>
+		<input type="text" id="lname" name="Lastname"><br><br><br>
+		<label for="email">E-mail</label>
+		<input type="email" id="email" name="E-mail" autofocus value="123@gmail.com"><br><br><br>
+		<textarea rows="5" cols="50">Enter your message here (if any) </textarea><br><br><br>
+		<label for="pwd">Password</label>
+		<input type="password" id="pwd" name="Password" placeholder="Please enter password"  required><br><br><br>
+		<label for="phno">Enter phone number  </label>
+		<input type="number" id= "phno" name="phno" maxlength="5" minlength="2" size= "5"step="2"><br><br>
+		<label for="country_code">Countrycode</label>
+		<input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}"Three letter code>
+		<input type="date" name="Startdate">
+		<input type="range" name="number" min="0" max="100">
+		<input type="submit" name="submit" value="submit">
+	</fieldset>
+	</form>
+
+</body>
+</html>
