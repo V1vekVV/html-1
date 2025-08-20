@@ -2,33 +2,34 @@
 <html>
 <head>
 	<title></title>
+	<style type="text/css">
+		body{
+			background-color: lightgrey;
+			margin: auto;
+			display: flex;
+			height: 70vh;
+			padding-left: 70px;
+			padding-right: 70px;
+			padding-top: 0px;
+			padding-bottom: 100px;
+		}
+		div.white{
+			margin: auto;
+			border-radius: 0.5em;
+			padding: 35px;
+			background-color: white;
+			color: black;
+			text-align: left;
+			width: 700px;
+			height: 200px;
+		}
+	</style>
 </head>
 <body>
-<form>
-	<label for="fname">Full Name:</label>
-	<input type="text" id="fname" name="Full Name" placeholder="Enter Full Name" maxlength="25" required><br><br>
-	<label for="Email">Email:</label>
-	<input type="Email" id="Email" name="Email" value="test@example.com" autofocus required><br><br>
-	<label for="pwd">Password</label>
-	<input type="Password" id="pwd" name="Password" minlength="6" required><br><br>
-	<label for="job">Category</label>
-	 <select id="job" name="Category" required>
-	 	<option value="Student">Student</option>
-	 	<option value="Employee">Employee</option>
-	 	<option value="Freelancer" selected>Freelancer </option>
-	 </select><br><br>
-	<label for="Eventdate">Event Date</label>
-	<input type="date" id="Eventdate" name="Event Date" required><br><br>
-	<label>Tickets: </label>
-	<input type="radio" name="1 ticket"  >1 ticket
-	<input type="radio" name="2 tickets" >2 tickets
-	<input type="radio" name="3 tickets" checked>3 tickets<br><br>
-	<input type="checkbox" name="Online Payment" required>Online payment<br><br>
-	<label>Notes<br>
-	<textarea rows="5" cols="50" placeholder="Enter here">
-</textarea></label><br><br>
-<input type="submit" value="submit" name="submit"/>
-
-</form>
+<div class="white">
+	<h1><b>Example Domain</b></h1>
+	<p>This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.</p>
+	<a style="text-decoration: none;" href="https://www.iana.org/help/example-domains">More information...</a>
+</div>
 </body>
 </html>
